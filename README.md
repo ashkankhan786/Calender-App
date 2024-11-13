@@ -45,21 +45,23 @@ Calendar App is a simple event management application built with Node.js, Expres
 
 2. **Install Backend Dependencies Navigate to the backend folder, run:**
 
-````bash
-  npm install
+   ```bash
+   npm install
 
 3. **Install Frontend Dependencies Navigate to the frontend folder, and run:**
-```bash
-  npm install
+
+   ```bash
+   npm install
 
 4. **Environment Configuration :In the backend directory, create a .env file and set up the following environment variable:**
-  PORT=3000
 
-5. **Run the Server: Start the backend server from the backend directory:**
-```bash
-  npm start
+   PORT=3000
+
+6. **Run the Server: Start the backend server from the backend directory:**
+   ```bash
+   npm start
 
 6. **Run the React Frontend In the frontend folder, start the React application:**
-```bash
-  npm start
+   ```bash
+   npm start
 ````
