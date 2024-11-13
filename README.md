@@ -64,4 +64,3 @@ Calendar App is a simple event management application built with Node.js, Expres
 6. **Run the React Frontend In the frontend folder, start the React application:**
    ```bash
    npm run dev
-````
