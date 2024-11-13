@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
 import Popup from "../components/Popup";
+import Navbar from "../components/Navbar";
 
 const CalendarPage = () => {
   const [value, setValue] = useState(new Date());
@@ -24,8 +25,9 @@ const CalendarPage = () => {
   };
 
   return (
-    <div className="bg-slate-900 min-h-screen w-screen flex items-center justify-evenly px-20 py-20">
-      <div className="flex items-center justify-evenly ">
+    <div className="bg-slate-900 min-h-screen w-screen">
+      <Navbar home={false} />
+      <div className="flex items-center justify-evenly px-20 py-20">
         <div
           className={`h-[350px] transition-transform duration-500 ease-in-out ${
             popup ? "-translate-x-40 opacity-50" : "translate-x-0 opacity-100"
